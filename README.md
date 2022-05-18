@@ -23,7 +23,16 @@
 
 ### Resources
 
+* JEP 425 [Virtual Threads](https://openjdk.java.net/jeps/425)
+* JEP 428 [Structured Concurrency](https://openjdk.java.net/jeps/428)
+
+### Resources / Videos
+
 * [Project Loom: Modern Scalable Concurrency for the Java Platform](https://www.youtube.com/watch?v=EO9oMiL1fFo) by Ron Pressler
+    - 12m00s : "codes like sync, scales like async"
+    - 12m34s : excellent discussion on Thread vs async/await in various languages
+    - 30m44s : great slides illustrating 1:1 versus M:N
+    - 37m34s : Little's Law
 * [Project Loom: Revolution in concurrency or obscure implementation detail?](https://www.youtube.com/watch?v=n_XRUljffu0) by Tomasz Nurkiewicz 
 * [Project Loom - A Friend or Foe of Reactive?](https://www.youtube.com/watch?v=YwG04UZP2a0) by Oleh Dokuka and Andrii Rodionov
     - esp. near 19m20s
