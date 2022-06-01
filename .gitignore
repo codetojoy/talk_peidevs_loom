@@ -1,3 +1,8 @@
+**/*.swp
+**/out.log
+**/tmp*
+**/*.jfr
+**/my_build/**
 # Compiled class file
 *.class
 
