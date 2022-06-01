@@ -25,6 +25,8 @@
 
 * JEP 425 [Virtual Threads](https://openjdk.java.net/jeps/425)
 * JEP 428 [Structured Concurrency](https://openjdk.java.net/jeps/428)
+* major [PR on GitHub](https://github.com/openjdk/jdk/pull/8166/files)
+    - 1100 files!
 
 ### Resources / Videos
 
@@ -37,5 +39,6 @@
 * [Project Loom - A Friend or Foe of Reactive?](https://www.youtube.com/watch?v=YwG04UZP2a0) by Oleh Dokuka and Andrii Rodionov
     - esp. near 19m20s
 * [AMA About the Java Language](https://www.youtube.com/watch?v=9si7gK94gLo) by Brian Goetz and Nicolai Parlog 
+    - near 19m10s, "Loom will kill Reactive programming"
 * [Project Loom Q&A with Ron Pressler](https://www.youtube.com/watch?v=cAHW96omBAc) 
     - esp. near 55m25s 

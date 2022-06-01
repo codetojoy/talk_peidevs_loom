@@ -1,25 +1,4 @@
 
-### TODOS
-
-* test code formatting in google slides
-* rewatch Ron P first talk
-* code example
-    - thread per request
-    - thread pool
-    - Reactive
-    - Loom
-    - just code snippets? do they have to work?
-* start Keynote or Google presentations?
-* find concurrency vs parallel analogy
-* flight recorder
-* code
-    - consider showing that v-threads are moved (as in Venkat's talk)
-* x - proper eggs project
-* x - friend or foe talk ?
-* x - 2nd Ron P talk
-* x - Gradle
-* x - Venkat talk
-
 ### articles, videos
 
 * JEP draft: Structured Concurrency
@@ -684,7 +663,109 @@
 * loom: for simple apps
     - loom can also help R in spots 
 * R: for complex, streaming
- 
+
+### video
+
+* inside java, 19-MAY-2022
+* Nicolai P
+* link: https://www.youtube.com/watch?v=KuHhUDhIFYso
+* mega PR
+    - merged 07-MAY-2022
+* backwards compatible
+* thread locals work fine in v-thread
+* performance mostly good news
+* limiting factors:
+    - thread pools
+        - use semaphores to limit access to database 
+    - thread locals
+        - avoid caching huge # of objects
+    - synchronized keywords
+        - avoid IO in sync blocks: pinning
+        - system property `jdk.tracePinnedThreads`
+    - native code
+    - File I/O
+        - blocks carrier thread
+        - mitigation: Loom creates a new carrier thread
+        - `io_uring` ? would solve issue on Linux
+        - note this is not sockets, db, etc 
+* Helidon tweet - https://twitter.com/m0mus/status/1526101284956393472
+* loom lab - https://github.com/nipafx/loom-lab
+
+### video
+
+* video
+* FEB 2021
+* Alan Bateman for JUG ru
+* link: https://www.youtube.com/watch?v=7GLVROqgQJY
+* loom: early 2018
+* 4 parts
+* 1. motivation
+* threads are central to Java
+* 1:1 from java.lang.Thread to OS thread (thin wrapper)
+    - large, generic stack size
+    - kernel context switch: 1 microsecond
+    - scheduling is a compromise
+* sync: devs are happy, hardware is un-used
+    - millions of network connections, thousands of threads
+    - impacts throughput
+* thread pools
+    - can leak thread locals (i.e. memory leak)
+    - cancellation is hard
+    - concurrency is still bounded by # of threads, because transaction uses thread for duration
+* async: devs unhappy, hardware is used 
+    - reduce being tied to the thread
+    - scalable
+    - end up with 2 APIs (coloured functions)
+    - chop up txn into pieces
+        - hard to track
+        - exceptions are w/o context
+        - debugging/profile etc is painful
+* "codes like sync, scales like async"
+* part 2. impl
+* API
+    - must honour currentThread() and ThreadLocal
+    - java.lang.Thread is all threads
+    - new factory methods
+* diagram
+    - v-threads multiplexed on p-threads ... M:N
+    - v-threads combine continuations with the Java scheduler
+    - confirmed: when v-thread blocks, it is swapped out to heap as a continuation
+        - scheduler assigns new v-thread to the p-thread
+        - original v-thread may be resumed on a different p-thread
+        - user code doesn't know anything about it: scheduler is pre-emptive and doesn't
+          require co-operation
+* slide on stack size, switching costs
+    - similar to Ron P
+* part 3. demos
+* skipping through this
+* IntStream.range
+* AtomicInteger counter
+* example using `invokeAny` on executor
+    - like s.c. but manual
+    - clearly stated: first task is used, second is cancelled/interrupted ... curious
+* example with CompletableFuture ... lazy eval
+* example of pinning 
+* example of Helidon
+    - `Thread.dumpStack()`
+* part 4. other aspects 
+* limitations
+    - native code
+    - monitors
+* prepare for loom
+    - watch out for thread locals: memory pressure
+    - caching SimpleDateFormatter are often cached because they aren't thread safe
+    - watch out for pinning
+* debugger 
+* detailed JFR command !
+* future topics:
+    - channels (called conduits)
+    - s.c.
+    - scope vars
+    - cancellation
+        - legacy interrupt mechanism, which works well but too low-level
+        - may be a new idea here 
+* key take-aways
+
 ### brainstorm
 
 * Nicolai video
