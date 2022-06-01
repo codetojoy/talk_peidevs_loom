@@ -5,6 +5,6 @@ First, we'll examine "virtual threads". Virtual threads will have an enormous im
 
 Second, as time allows, we'll look at "structured concurrency": a relatively new way to handle multiple tasks, running in separate threads, as a single unit of work. Structured concurrency illustrates the benefits of virtual threads, and gives us a new, sexy term to "casually drop into conversation" with pretentious academics.    
 
-These are advanced topics, but we'll try and explain them for both intermediate and senior developers. This talk will be successful if _no_ one level of developer is entirely happy with the material. (Bonus: this is indistinguishable from abject failure!). It is recommended that attendees are familiar with threads, and the difference between stack-space and memory heap.
+These are advanced topics, but we'll try and explain them for both intermediate and senior developers. This talk will be successful if _no_ one level of developer is entirely happy with the material. (Bonus: this is indistinguishable from abject failure!) It is recommended that attendees are familiar with threads, and the difference between stack-space and memory heap.
 
 Michael Easter is a software developer and co-organizer of PEI Devs.
