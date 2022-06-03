@@ -1,9 +1,12 @@
 
 ### TODO
 
+* 22 min to get to part 1.B
 * drop shadow on images ?
 * change battery in trackpad
 * virtual thread / carrier thread in diagram
+    - tie it back to the code examples
+* code example from book for Reactive
 
 ### intro 
 
@@ -45,10 +48,51 @@
 
 ### part 1.2
 
+## brainstorm ##
+-----------------------------------
+
+* timeline
+* 2005
+    - Erik Meijer, Microsoft
+    - large-scale async, data-intensive service architectures 
+* 2009
+    - Rx.NET
+* 2012
+    - Rx.NET open source 
+    - ported to RxJava
+* 2013
+    - RxJava open source
+    - Netflix
+* 2011
+    - ReactiveX, Reactive Extensions
+    - RxJava is JVM impl of this
+    - https://en.wikipedia.org/wiki/ReactiveX
+    - API for async programming with observable streams
+        - observers, subscriptions, operators
+    - link: https://reactivex.io/
+* 2014
+    - Reactive Manifesto 
+    - v 2.0 
+    - https://www.reactivemanifesto.org/
+* 2015
+    - Project Reactor v2
+    - by Spring
+    - v3 is similar to RxJava v2 
+* 2017 
+    - Spring 5 is Reactive
+    - uses Project Reactor
+    - Spring WebFlux
+
+-----------------------------------
+
 * header: reactive
 * rainbow emoji
 * what is reactive
     - not react
+    - scalable, resilient
+    - "be like water"
+    - threads: be dormant or be doing work
+
 * spec
     - Rx Java, Project Reactor, Spring WebFlux
 * architecture diagram
