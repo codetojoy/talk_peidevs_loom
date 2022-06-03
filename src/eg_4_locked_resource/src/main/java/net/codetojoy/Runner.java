@@ -9,8 +9,8 @@ class Worker {
     void simulateWork(String message, int delayInSeconds) {
         try {
             long delayInMillis = delayInSeconds * 1000L;
-            System.out.println("TRACER " + message + 
-                                " t: " + Thread.currentThread() + 
+            System.out.println("TRACER " + message +
+                                " t: " + Thread.currentThread() +
                                 " sleeping...");
             Thread.sleep(delayInMillis);
         } catch(Exception ex) {
@@ -22,14 +22,14 @@ class User {}
 
 class Database {
     User findUser(int id) {
-        new Worker().simulateWork("querying database", id);        
+        new Worker().simulateWork("querying database", id);
         return new User();
-    } 
+    }
 }
 
 class ConnectionPool {
-    private static final int MAX_AVAILABLE = 2;
-    private final Semaphore available = new Semaphore(MAX_AVAILABLE, true);
+    private static final int MAX_AVAIL = 2;
+    private final Semaphore available = new Semaphore(MAX_AVAIL, true);
     private final Database database = new Database();
 
     Database acquireDatabase() throws InterruptedException {
@@ -40,9 +40,22 @@ class ConnectionPool {
     void releaseDatabase() {
         available.release();
     }
-} 
+}
 
 class MyTask implements Runnable {
+    @Override
+    public void run() {
+        try {
+            var database = pool.acquireDatabase();
+            var user = database.findUser(id);
+            // ...
+        } catch (Exception ex) {
+            // #yolo
+        } finally {
+            pool.releaseDatabase();
+        }
+    }
+
     int id;
     ConnectionPool pool;
 
@@ -51,28 +64,16 @@ class MyTask implements Runnable {
         this.pool = pool;
     }
 
-    @Override 
-    public void run() {
-        try {
-            var database = pool.acquireDatabase();
-            var user = database.findUser(id); 
-            // ...
-        } catch (Exception ex) {
-            System.err.println("caught ex: " + ex.getMessage());
-        } finally {
-            pool.releaseDatabase();
-        }
-    }
 }
 
 public class Runner {
     ConnectionPool pool = new ConnectionPool();
-    
+
 void run() throws Exception {
     try (var executor = Executors.newVirtualThreadPerTaskExecutor()) {
-        int numTasks = 10; 
+        int numTasks = 10;
         for (int i = 0; i < numTasks; i++) {
-            executor.submit(new MyTask(i, pool)); 
+            executor.submit(new MyTask(i, pool));
         }
     }
 }

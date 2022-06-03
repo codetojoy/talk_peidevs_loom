@@ -9,8 +9,8 @@ class Worker {
     void simulateWork(String message, int delayInSeconds) {
         try {
             long delayInMillis = delayInSeconds * 1000L;
-            System.out.println("TRACER " + message + 
-                                " t: " + Thread.currentThread() + 
+            System.out.println("TRACER " + message +
+                                " t: " + Thread.currentThread() +
                                 " sleeping...");
             Thread.sleep(delayInMillis);
         } catch(Exception ex) {
@@ -22,12 +22,18 @@ class User {}
 
 class Database {
     User findUser(int id) {
-        new Worker().simulateWork("querying database", id);        
+        new Worker().simulateWork("querying database", id);
         return new User();
-    } 
+    }
 }
 
 class MyTask implements Runnable {
+    @Override
+    public void run() {
+        var user = database.findUser(id);
+        // ...
+    }
+
     int id;
     Database database;
 
@@ -36,11 +42,6 @@ class MyTask implements Runnable {
         this.database = database;
     }
 
-    @Override 
-    public void run() {
-        var user = database.findUser(id); 
-        // ...
-    }
 }
 
 public class Runner {
@@ -48,9 +49,9 @@ public class Runner {
 
 void run() throws Exception {
     try (var executor = Executors.newVirtualThreadPerTaskExecutor()) {
-        int numTasks = 10; 
+        int numTasks = 10;
         for (int i = 0; i < numTasks; i++) {
-            executor.submit(new MyTask(i, database)); 
+            executor.submit(new MyTask(i, database));
         }
     }
 }
