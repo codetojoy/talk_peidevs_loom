@@ -11,17 +11,15 @@ public class Runner {
         try { Thread.sleep(5000); } catch (Exception ex) {}
     }
 
-    void createManyThreads(int numThreads) throws Exception {
-        Thread thread = null;
+void createManyThreads(int numThreads) throws Exception {
+    Thread thread = null;
 
-        for (int i = 0; i < numThreads; i++) {
-            // thread = new Thread(Runner::doWork);
-            thread = Thread.startVirtualThread(Runner::doWork);
-            // thread.start();
-        }
-
-        thread.join();
+    for (int i = 0; i < numThreads; i++) {
+        thread = Thread.startVirtualThread(Runner::doWork);
     }
+
+    thread.join();
+}
 
     public static void main(String... args) throws Exception {
         int numThreads = 20;

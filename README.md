@@ -14,7 +14,7 @@
 
 ### Examples from presentation
 
-* todo 
+* see [src](./src) in this project 
 
 ### Modest projects (as examples)
 
@@ -40,5 +40,8 @@
     - esp. near 19m20s
 * [AMA About the Java Language](https://www.youtube.com/watch?v=9si7gK94gLo) by Brian Goetz and Nicolai Parlog 
     - near 19m10s, "Loom will kill Reactive programming"
+    - reddit thread [here](https://www.reddit.com/r/programming/comments/oxsnqg/brian_goetz_i_think_project_loom_is_going_to_kill/)
 * [Project Loom Q&A with Ron Pressler](https://www.youtube.com/watch?v=cAHW96omBAc) 
     - esp. near 55m25s 
+* [Project Loom C5M](https://github.com/ebarlas/project-loom-c5m)
+    - 5 million concurrent connections

@@ -1,4 +1,10 @@
 
+### TODO
+
+* drop shadow on images ?
+* change battery in trackpad
+* virtual thread / carrier thread in diagram
+
 ### intro 
 
 * about me
@@ -11,26 +17,30 @@
 ### part 1.1
 
 * header: virtual threads
-* max p threads
-* max v threads
-* TODO
-    - CPU vs sockets vs threads
-    - show bottleneck
-* TODO
-    - server socket example
-* TODO
-    - throughput (Little's Law?)
+* code: max p threads
+* code: max v threads
+* architecture: CPU, sockets, RAM
 * grocery store
-* map grocery store to Loom 
+    - set up
+    - etc 
+* banner redux
+    - 4+ years
+    - PhD thesis 
+* PR github
+* revisit code: sync egg_4
 * pros
-    - debug, monitor, tooling
     - scale
+    - because JVM: debug, monitor, tooling
     - no async/await
+        - no bipolar
+        - consistent
     - thread per request
 * cons
     - scale
     - imperative is back
     - BG will kill reactive
+* 5 million connections
+* reddit: loom can't come fast enough
 * Brian Goetz
 
 ### part 1.2
@@ -58,6 +68,7 @@
         - change propogation
         - # of threads 
             - thread pools are a throttle
+            - thread constructs?
 
 ### part 2
 

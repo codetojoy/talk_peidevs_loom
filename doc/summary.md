@@ -1,4 +1,8 @@
 
+* "Project Loom: A Summary For Busy Developers"
+ 
+* Summary: 
+
 Project Loom is a major initiative in Java, intended to introduce easy-to-use, high-throughput concurrency support and even new programming models. In this talk, we'll examine two aspects of Project Loom, which will be available (as preview) in JDK 19 (due Sept 2022). 
 
 First, we'll examine "virtual threads". Virtual threads will have an enormous impact on the way we scale code. They are cheap, simple, and they "code like sync, but scale like async". Advocates claim that "imperative code is back!". We will soon see dozens of blog posts with impressive demos. But is the hype overblown? Is it true, as Brian Goetz (language architect) predicts, that "Loom will kill reactive programming"?   
