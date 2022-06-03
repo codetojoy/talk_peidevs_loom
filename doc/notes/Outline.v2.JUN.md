@@ -3,10 +3,12 @@
 
 * 22 min to get to part 1.B
 * drop shadow on images ?
-* change battery in trackpad
+* take-away slide?
 * virtual thread / carrier thread in diagram
     - tie it back to the code examples
 * code example from book for Reactive
+* https://dev.to/cyrez/from-the-faang-to-the-maana-115g?signin=true
+    - check to see if he replied re: license
 
 ### intro 
 

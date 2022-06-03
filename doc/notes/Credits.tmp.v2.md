@@ -10,6 +10,8 @@
 
 * edibles - https://www.flickr.com/photos/elsaolofsson/51385864964/in/photolist-2mhMZp3-2jqPaA9-2kGPgDj-GQTW1x-2m3kKJE-2jv5j9s-2jQtXMu-2jQxw7M-2jqK9Ge-2jQynLn-2jqMY5p-2jQxw9L-2jQtXW7-2jqKcBn-2jqMXA3-2jv3Us5-2jqPeRy-2jv3UyY-2gt1knx-2mhJc8J-2kGPgBq-2mhMZw2-2jqPfnP-2jv1d9L-2jqMUNz-vRfvGm-2jQtXHM-2jQynCB-2jqKbb1-228LHs9-2jQynFx-2jQxw7w-2gH6eK6-2jQtXGu-2jQxw5c-2kNz5qP-Vkz5im-2kJy2sz-FmbmXN-2kGw69g-2kSWExo-2kGw6bf-DQ98rk-2jqMTF9-DQ988z-ZMn4ex-2jqMWmz-FmbmGh-2afrFVw-2jqMXou
 
+* splash - https://www.flickr.com/photos/94915717@N00/47013595/in/photolist-22YaLbw-EzSp3u-5kk4i1-2fcv1GH-QqJ29c-RQjRrE-25mqiEM-QXY4ip-eg7ewz-6mto2D-VkFNiB-9h7tkX-59Xve-25hkvPG-81vb28-f2RYam-25mqjex-duiY18-akBimA-oZDkoS-kfsQv2-ezfNK-p8W3jx-fyjY6M-8jQVM8-WUuWfd-dxKEGX-cmYj2E-CFG4W-fGkzkP-BBVfpu-dLJFMj-Kcf6m-pCRPok-HQnCqK-n2Z96r-4L8Tww-rCYbf1-dHKiGm-bsa2Dg-uX4uBU-kfuCAC-n7Makn-dbhVhS-6NBTNv-22XUY7K-yCeNYb-pFRDYA-nNUM7z-Vn6YGn
+
 * calendar - https://pixabay.com/illustrations/calendar-2018-agenda-annual-planner-3070533/
 * phd - https://www.flickr.com/photos/william_pacheco/531614052/in/photolist-898fCC-7aCoUx-oAYhj-2kdd9oY-4XjMQ-7wkbdr-25jwFpZ-pYDw7p-4EtPS-9kaD8T-Mjg1eG-TuTkPV-NYEkw-UEMXFw-7WAnGL-21EGcAh-c55bLE-22KaCte-22KaD2t-DcvNL9-Y5HBL-gkxsxg-nqXqB8-nHXnSH-ceEBns-E8k7ww-TuTmbX-qquwjw-izXj2T-9RF1To-9RF1Vs-9RC7kx-izXr7J-nPpne-7PH1qK-izXXUz-LLHb8-nPpfp-izXVxJ-izXUJ9-9RF1LY-izXgFF-9RC7iP-izXXds-izXvub-izY2W2-5L2vDd-5mPfsj-5mPfSd-L4Fb9
 
@@ -21,4 +23,7 @@
 
 * s.p. - https://www.abebooks.com/servlet/BookDetailsPL?bi=30462753189&cm_sp=rec-_-pd_hw_i_1-_-bdp&reftag=pd_hw_i_1#&gid=1&pid=1
 * go blog post - https://vorpus.org/blog/notes-on-structured-concurrency-or-go-statement-considered-harmful/
+* assembly - https://commons.wikimedia.org/wiki/File:X86_Assembly_Listing_for_ComplexAdd.png
+* checkmark - http://clipart-library.com/clip-art/green-check-mark-icon-transparent-background-11.htm
+* x - http://clipart-library.com/clip-art/x-mark-transparent-background-15.htm
 
