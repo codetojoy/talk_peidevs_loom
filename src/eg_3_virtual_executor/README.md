@@ -2,7 +2,7 @@
 Summary:
 ---------
 
-* illustrates virutal executor service
+* illustrates virtual executor service
 * Java 19 (preview) virtual threads
 
 To Build:

@@ -2,8 +2,7 @@
 Summary:
 ---------
 
-* illustrates maxing out # of platform threads
-    - max on my Mac, default JVM is between 4k and 4.5k
+* illustrates maxing out # of virtual threads
 * Java 19 (preview) virtual threads
 
 To Build:
