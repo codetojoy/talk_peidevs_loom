@@ -1,14 +1,20 @@
 
-### TODO
+### time
 
 * 22 min to get to part 1.B
-* drop shadow on images ?
-* take-away slide?
+
+### TODO
+
+* slide: spring webflux slide
+* slide: 3x obsolete: Latin, Internet Explorer, C++
+* slide: 1000x factor 
 * virtual thread / carrier thread in diagram
     - tie it back to the code examples
 * code example from book for Reactive
 * https://dev.to/cyrez/from-the-faang-to-the-maana-115g?signin=true
     - check to see if he replied re: license
+* x - take-away slide?
+* x - drop shadow on images ?
 
 ### intro 
 

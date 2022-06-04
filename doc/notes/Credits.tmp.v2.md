@@ -27,3 +27,4 @@
 * checkmark - http://clipart-library.com/clip-art/green-check-mark-icon-transparent-background-11.htm
 * x - http://clipart-library.com/clip-art/x-mark-transparent-background-15.htm
 
+* joe's take away - https://www.flickr.com/photos/thomashawk/4514771984
