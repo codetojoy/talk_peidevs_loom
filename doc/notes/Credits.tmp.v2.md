@@ -28,3 +28,4 @@
 * x - http://clipart-library.com/clip-art/x-mark-transparent-background-15.htm
 
 * joe's take away - https://www.flickr.com/photos/thomashawk/4514771984
+* stopwatch - http://clipart-library.com/clipart/1505841.htm
