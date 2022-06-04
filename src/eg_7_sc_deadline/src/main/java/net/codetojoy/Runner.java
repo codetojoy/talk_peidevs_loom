@@ -2,6 +2,7 @@
 // note: I no longer own this domain
 package net.codetojoy;
 
+import java.util.concurrent.*;
 import java.time.*;
 import jdk.incubator.concurrent.StructuredTaskScope;
 
@@ -31,20 +32,21 @@ public class Runner {
         return result;
     }
 
-    String run() throws Exception {
-        try (var scope = new StructuredTaskScope.ShutdownOnSuccess<String>()) {
-            var foo = scope.fork(() -> taskFoo()); 
-            var bar = scope.fork(() -> taskBar());
+String run() throws Exception {
+    try (var scope =
+            new StructuredTaskScope.ShutdownOnSuccess<String>()) {
+        Future<String> foo = scope.fork(() -> taskFoo());
+        Future<String> bar = scope.fork(() -> taskBar());
 
-            var deadline = Instant.now().plusSeconds(2); 
-            scope.joinUntil(deadline); 
+        var deadline = Instant.now().plusSeconds(2);
+        scope.joinUntil(deadline);
 
-            return scope.result();
-        }
+        return scope.result();
     }
+}
 
     public static void main(String... args) {
-        var runner = new Runner(); 
+        var runner = new Runner();
 
         try {
             String result = runner.run();
