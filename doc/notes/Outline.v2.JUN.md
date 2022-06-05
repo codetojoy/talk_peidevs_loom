@@ -5,9 +5,15 @@
 
 ### TODO
 
-* slide: spring webflux slide
-* slide: 3x obsolete: Latin, Internet Explorer, C++
 * slide: 1000x factor 
+* slide: near R architecture: space shuttle to Halifax
+* slide: near R fire-wagon, runaway train
+* y - slide: R composability
+* x - slide: spring webflux slide
+* X - slide: R web flux
+* X- slide: 3x obsolete: Latin, Internet Explorer, C++
+* X - slide: code for invokeAll green vs red
+
 * virtual thread / carrier thread in diagram
     - tie it back to the code examples
 * code example from book for Reactive

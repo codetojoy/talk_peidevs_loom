@@ -29,3 +29,19 @@
 
 * joe's take away - https://www.flickr.com/photos/thomashawk/4514771984
 * stopwatch - http://clipart-library.com/clipart/1505841.htm
+
+* IE 7 - https://www.flickr.com/photos/kk/35407674
+* latin - https://www.flickr.com/photos/maong/104829929/in/photolist-aghhz-HuiDzf-2f8CwXd-zZ9SQ-e7vdVf-e7vEXC-e7vFe9-e7pdLr-e7ve5Q-dGthT9-8dEp4A-4pukKM-2hsDQQe-2mPcKfz-5Sxidw-2mP8bZX-Jfijkp-6spBgH-dxENNN-dxzmWB-KR36gu-dxzmWT-HF6qVK-H7F4Qd-YFuKu-djYKQZ-hScMXW-2k4141P-2mP9BtS-dyuPxS-6stKNY-6spBvM-GTdKfm-8P9Da-HJZj41-dvc21R-3HnmGT-7d4UMf-6spBnK-fskTW-dyuPyC-2hetAze-ks3ip-KaRMuh-JPuAff-qZRKe-dxzmXk-Hu3WoW-H7VCyb-9X9m5v
+* vcr - https://www.flickr.com/photos/parkermj/49736510/in/photolist-5oUW3-oXJ3H-8xcRTX-33kQ55-jf2GAd-4axmX5-F1d4V-913ysr-cPpM3h-JyBLmw-9Pu9Ud-2mvyjey-cbQa6-6VNDvB-842CPy-4uY9zM-5aWte-bXBmQL-9fAfyR-fjPh-4W6T8y-7gbgsK-5XNjx7-9rBj1X-2cxrQAo-5hTycv-5HjRun-mBksP-Jyov7-LDicYL-2kXWkA9-sNLCZ-7jjwN1-bo15Vj-C7Zuyu-e4b5LW-2kPhmrN-aJx2yB-5LfT5b-Ge4bUr-8Tc2QY-9g6x6P-9iR3UA-7rvK1t-nf9pQy-9zou19-9zkv4p-9zouQu-e8KWCc-9zktUc
+* binary tree - wiki (complete binary tree)  
+
+* observe - http://clipart-library.com/clipart/194496.htm
+* bullhorn - http://clipart-library.com/clipart/1348674.htm
+* pipeline - http://clipart-library.com/clipart/n1319118.htm
+
+* data center - https://www.flickr.com/photos/neospire/3595638492/in/photolist-6tJA47-ayaKv6-5BozZk-MrpbMW-6tJAa7-6tJzZh-8mcRCE-MTtCQ8-z5ngYq-z5n7Dy-71SrCn-57vTPS-5nSr4j-9dyCyV-6tJA95-57rCp8-y9vtNr-57rLj2-57rDkH-57rEmp-MTtHzt-4VmneE-nU98Tz-yNMEBf-ML432M-MHmWdW-MQovFN-yNSSMt-MHn3Eo-6tEsfH-6tEsgr-z5nhZo-6tEsaX-6tJA6W-6tEsa2-6tEsgV-z45Woq-6tEsbv-6tEsi8-6tEsfr-MTtKeF-GQQcn9-6tEsbk-6tJA7A-MrpaaY-Mrpdbs-6tEsf2-57rFx2-6tEsfg-6tEscK
+
+* space x - https://www.flickr.com/photos/163370954@N08/49954317842/in/photolist-2j7hWj7-2fwyBX2-Sjctmz-BbMqKS-2fwyAZk-nX7ZmF-2e8ERxX-2j4cij2-JupmXW-a1JMXk-adnW7k-2bQkc7v-2fwyBPr-2frUhqC-2bP9qPj-23v3EWd-294cFwC-21Gjbed-2aqXzzR-2bQVwLn-2bQVwH6-PGVvrw-PGVvy5-2j67L3X-2aK6Cgh-295CTnf-2frUhCG-qJahSs-2kGM2DZ-2hnqNWG-au1G3b-psTueK-eMupXo-xWBkwX-24oNSK8-2frUhyy-SRum6Q-D4gXUH-KbF8Sv-245EWSu-2j63zr5-MKCJzC-CJrwAQ-2336c3o-D4gYyP-Ce3VEj-2msnNS6-Cekaa2-EDieDb-2eqxCX7
+
+* maritime map - https://www.flickr.com/photos/22711505@N05/38068706042
+
