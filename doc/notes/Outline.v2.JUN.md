@@ -6,8 +6,8 @@
 ### TODO
 
 * slide: 1000x factor 
-* slide: near R architecture: space shuttle to Halifax
 * slide: near R fire-wagon, runaway train
+* x - spacex to halifax
 * y - slide: R composability
 * x - slide: spring webflux slide
 * X - slide: R web flux
