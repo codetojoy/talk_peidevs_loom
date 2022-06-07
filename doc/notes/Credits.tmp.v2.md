@@ -45,3 +45,10 @@
 
 * maritime map - https://www.flickr.com/photos/22711505@N05/38068706042
 
+* camry - https://www.flickr.com/photos/152930510@N02/27218511827/in/photolist-HtcZhF-25Unhnp-2gdVBpM-NFoo5U-2gdVRoF-C1sUej-NFoo89-HMsJTK-ZUeCXe-5E7YJk-nUr7t-bwRtf-2jy9hy2-HqmEfn-25GPbMB-29bt5SP-2ayt6ai-oKmGT4-RSWa7o-23rEskU-24wu57e-VmkpaZ-28dWZAG-29Aywhn-RSWaMb-7ysQKc-qKaiWt-9iVfsP-qqpcci-8kyQ8A-8kvCse-6yTAZ1-a6iJgc-8Pr5ox-bgDH6c-2mw6FbS-6ExKhY-4S22DT-Y9ud4Y-5yBwrW-mKtCop-ooAuop-7WCSk9-486sTi-2kx3dqM-6wGVQa-2h7eu1S-YwiX-2h7fcLm-84tMqi
+
+* engine - https://www.flickr.com/photos/jacko_999/33152456322/in/photolist-Svz1fw-5mUUjo-9qLb7W-9qfXbU-5u18Ud-2kLXf5z-9qfXxA-9qcViH-6Sqnbg-56KEDM-4DPvTj-4DPowm-mwNZqz-4DKdxH-mm3qMp-4DKdLi-ih9WP-2mYz9bo-aNrADa-2kaGzpU-2n1MBum-7oDGcC-AMT3Ne-5znr5z-2n2xgmQ-8YN64e-Jpo8Rn-4DPodS-2n2K3gV-4HqQJJ-2n1nTHs-2idHkwK-2n58Dno-2mEMdTP-2mEM9tX-2n1j8Br-2n3aFZR-2justRv-2n3faPe-2n1EPDP-2jyrBgj-2mECxD4-2n3kvoR-4HmCMT-23iui9d-oWrTXu-6R6EhR-73X5fy-bRUZsX-9fnSkm 
+
+* miata regular - https://www.flickr.com/photos/60456850@N03/5892103690/in/photolist-9YEz9E-nGDpp6-mSxewF-nEDUqd-ad6Upa-nEQTnb-BTREW-nEz2qz-BTRKF-BTRG5-BTRJp-3wGZA1-2dAMjJU-yrChMY-2mP2Jrk-2mNYtHw-2mNYtj5-2iueEFz-797BNh-5n68x2-5577aN-86BVWe-797BJm-5qiSZH-Dm8Jb-ft7TtN-wRgR8k-9ioLeb-wRfB3i-2eGKH1z-BTRDE-3xdGm4-5qiSSa-25h1L5K-CPRQ6-5qocBu-2giVbHN-797BLm-5nNTnQ-5naoFy-BTRHj-HaTdpi-5pFfZ5-juvJxk-GBF3X-GBF4D-MgmhwA-CSguK-6p1MX8-6p1yx4
+
+* miata V12 - https://www.flickr.com/photos/mad-czech/4349324594
