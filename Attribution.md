@@ -44,8 +44,4 @@
 * [checkmark](http://clipart-library.com/clip-art/green-check-mark-icon-transparent-background-11.htm) via personal use
 * [red x](http://clipart-library.com/clip-art/x-mark-transparent-background-15.htm) via personal use
 * [stopwatch](http://clipart-library.com/clipart/1505841.htm) via personal use
-* [x](x)
-* [x](x)
-
-* [__TITLE](__LINK) by [__WHO](__WHO_LINK) via [__LICENSE](__LICENSE_LINK)
 * [Thank you in different languages](https://commons.wikimedia.org/wiki/File:Thank-you-word-cloud.jpg) by [Ashashyou](https://commons.wikimedia.org/wiki/User:Ashashyou) via [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
