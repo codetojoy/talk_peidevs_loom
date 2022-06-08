@@ -1,7 +1,9 @@
 
-* "Project Loom: A Summary For Busy Developers"
+### Title 
+
+"Project Loom: A Summary For Busy Developers"
  
-* Summary: 
+### Summary
 
 Project Loom is a major initiative in Java, intended to introduce easy-to-use, high-throughput concurrency support and even new programming models. In this talk, we'll examine two aspects of Project Loom, which will be available (as preview) in JDK 19 (due Sept 2022). 
 
