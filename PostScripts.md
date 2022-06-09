@@ -10,6 +10,9 @@ Here are some bonus notes that are not included in the talk:
     - see 11m18s [here](https://www.youtube.com/watch?v=lKSSBvRDmTg)
     - such code could be changed to use `ReentrantLock`
 * As of JUN 2022, virtual threads can be "pinned" (i.e. stuck) to the platform thread
+    - see note on `synchronized` above
+    - also when doing computationally intensive work
+    - generally, this is a Bad Thing: there are ways to detect this via Java Flight Recorder
 * Because virtual threads are stored on the heap, there can be memory pressure re: garbage collection in extreme cases
     - Jetty reported this in a major test
     - unfortunately, it looks like links to [their posts](https://mail.openjdk.java.net/pipermail/loom-dev/2020-December/001974.html) aren't working properly
