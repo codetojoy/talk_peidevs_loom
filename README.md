@@ -32,6 +32,7 @@
     - 5 million concurrent connections
 * [Loom can't come fast enough](https://www.reddit.com/r/java/comments/kxie9p/loom_cant_come_fast_enough/)
     - reddit thread
+* [Inside Java](https://inside.java/tag/loom) for articles tagged as 'loom'
 
 ### Resources / Videos
 
