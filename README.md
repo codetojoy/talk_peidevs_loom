@@ -3,6 +3,7 @@
 * Notes/examples for a talk on Java's Project Loom, for [PEI Developers](http://peidevs.github.io/), June 2022.
 * slides [here](./doc)
     - Note that I don't create slide-decks; I aim to tell a story during the talk. So the slides may not be useful, post-hoc.
+    - view link [here](https://docs.google.com/presentation/d/12Y-EJlGjOXR5IwU8ZJj66G1Jo1DFc1hlpaizhkiqnoM/edit?usp=sharing)
 
 ### Attribution
 
