@@ -27,6 +27,10 @@
 * JEP 428 [Structured Concurrency](https://openjdk.java.net/jeps/428)
 * major [PR on GitHub](https://github.com/openjdk/jdk/pull/8166/files)
     - 1100 files!
+* [Project Loom C5M](https://github.com/ebarlas/project-loom-c5m)
+    - 5 million concurrent connections
+* [Loom can't come fast enough](https://www.reddit.com/r/java/comments/kxie9p/loom_cant_come_fast_enough/)
+    - reddit thread
 
 ### Resources / Videos
 
@@ -44,7 +48,3 @@
     - reddit thread [here](https://www.reddit.com/r/programming/comments/oxsnqg/brian_goetz_i_think_project_loom_is_going_to_kill/)
 * [Project Loom Q&A with Ron Pressler](https://www.youtube.com/watch?v=cAHW96omBAc) 
     - esp. near 55m25s 
-* [Project Loom C5M](https://github.com/ebarlas/project-loom-c5m)
-    - 5 million concurrent connections
-* [Loom can't come fast enough](https://www.reddit.com/r/java/comments/kxie9p/loom_cant_come_fast_enough/)
-    - reddit thread
