@@ -45,4 +45,7 @@
 * [checkmark](http://clipart-library.com/clip-art/green-check-mark-icon-transparent-background-11.htm) via personal use
 * [red x](http://clipart-library.com/clip-art/x-mark-transparent-background-15.htm) via personal use
 * [stopwatch](http://clipart-library.com/clipart/1505841.htm) via personal use
+* [ALGOL 60](https://en.wikipedia.org/wiki/ALGOL_60) via fair use 
+* [Structured programming and problem-solving with PASCAL](https://www.abebooks.com/servlet/BookDetailsPL?bi=30462753189) by Richard B Kieburtz via fair use
+* ["Letters to the editor: go to statement considered harmful"](https://dl.acm.org/doi/10.1145/362929.362947) via fair use
 * [Thank you in different languages](https://commons.wikimedia.org/wiki/File:Thank-you-word-cloud.jpg) by [Ashashyou](https://commons.wikimedia.org/wiki/User:Ashashyou) via [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
