@@ -12,7 +12,7 @@ public class Runner {
     long taskFooDelayInMillis = 1000L;
     long taskBarDelayInMillis = 5000L;
 
-    String taskFoo() { 
+    String taskFoo() {
         String result = "";
         try {
             result = new Worker().doWork(taskFooDelayInMillis, "taskFoo", "foo-5150");
@@ -22,7 +22,7 @@ public class Runner {
         return result;
     }
 
-    String taskBar() { 
+    String taskBar() {
         String result = "";
         try {
             result = new Worker().doWork(taskBarDelayInMillis, "taskBar", "bar-6160");
@@ -32,17 +32,16 @@ public class Runner {
         return result;
     }
 
-String run() throws Exception {
-    try (var scope = new StructuredTaskScope.ShutdownOnFailure()) {
-        Future<String> foo = scope.fork(() -> taskFoo()); 
-        Future<String> bar = scope.fork(() -> taskBar());
+    String run() throws Exception {
+        try (var scope = new StructuredTaskScope.ShutdownOnFailure()) {
+            Future<String> foo = scope.fork(() -> taskFoo());
+            Future<String> bar = scope.fork(() -> taskBar());
 
-        scope.join();         
-        scope.throwIfFailed();
+            scope.join();
 
-        return foo.resultNow() + " " + bar.resultNow();
+            return foo.resultNow() + " " + bar.resultNow();
+        }
     }
-}
 
     static final int CASE_1_HAPPY_PATH = 1;
     static final int CASE_2_TASK_FOO_FAILS = 2;

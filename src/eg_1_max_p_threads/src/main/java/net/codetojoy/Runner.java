@@ -11,19 +11,19 @@ public class Runner {
         try { Thread.sleep(5000); } catch (Exception ex) {}
     }
 
-void createManyThreads(int numThreads) throws Exception {
-    Thread thread = null;
+    void createManyThreads(int numThreads) throws Exception {
+        Thread thread = null;
 
-    for (int i = 0; i < numThreads; i++) {
-        thread = new Thread(Runner::doWork);
-        thread.start();
+        for (int i = 0; i < numThreads; i++) {
+            thread = new Thread(Runner::doWork);
+            thread.start();
+        }
+
+        thread.join();
     }
 
-    thread.join();
-}
-
     public static void main(String... args) throws Exception {
-        int numThreads = 20;
+        int numThreads = 4300;
         new Runner().createManyThreads(numThreads);
         System.out.println("TRACER Ready v2");
     }

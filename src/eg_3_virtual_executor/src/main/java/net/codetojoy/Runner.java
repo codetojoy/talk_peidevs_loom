@@ -47,14 +47,14 @@ class MyTask implements Runnable {
 public class Runner {
     Database database = new Database();
 
-void run() throws Exception {
-    try (var executor = Executors.newVirtualThreadPerTaskExecutor()) {
-        int numTasks = 10;
-        for (int i = 0; i < numTasks; i++) {
-            executor.submit(new MyTask(i, database));
+    void run() throws Exception {
+        try (var executor = Executors.newVirtualThreadPerTaskExecutor()) {
+            int numTasks = 10;
+            for (int i = 0; i < numTasks; i++) {
+                executor.submit(new MyTask(i, database));
+            }
         }
     }
-}
 
     static public void main(String... args) throws Exception {
         new Runner().run();

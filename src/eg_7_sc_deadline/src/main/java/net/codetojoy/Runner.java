@@ -32,18 +32,18 @@ public class Runner {
         return result;
     }
 
-String run() throws Exception {
-    try (var scope =
-            new StructuredTaskScope.ShutdownOnSuccess<String>()) {
-        Future<String> foo = scope.fork(() -> taskFoo());
-        Future<String> bar = scope.fork(() -> taskBar());
+    String run() throws Exception {
+        try (var scope =
+                new StructuredTaskScope.ShutdownOnSuccess<String>()) {
+            Future<String> foo = scope.fork(() -> taskFoo());
+            Future<String> bar = scope.fork(() -> taskBar());
 
-        var deadline = Instant.now().plusSeconds(2);
-        scope.joinUntil(deadline);
+            var deadline = Instant.now().plusSeconds(2);
+            scope.joinUntil(deadline);
 
-        return scope.result();
+            return scope.result();
+        }
     }
-}
 
     public static void main(String... args) {
         var runner = new Runner();

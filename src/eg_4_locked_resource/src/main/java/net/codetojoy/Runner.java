@@ -28,7 +28,7 @@ class Database {
 }
 
 class ConnectionPool {
-    private static final int MAX_AVAIL = 2;
+    private static final int MAX_AVAIL = 100;
     private final Semaphore available = new Semaphore(MAX_AVAIL, true);
     private final Database database = new Database();
 
@@ -69,14 +69,14 @@ class MyTask implements Runnable {
 public class Runner {
     ConnectionPool pool = new ConnectionPool();
 
-void run() throws Exception {
-    try (var executor = Executors.newVirtualThreadPerTaskExecutor()) {
-        int numTasks = 10;
-        for (int i = 0; i < numTasks; i++) {
-            executor.submit(new MyTask(i, pool));
+    void run() throws Exception {
+        try (var executor = Executors.newVirtualThreadPerTaskExecutor()) {
+            int numTasks = 10;
+            for (int i = 0; i < numTasks; i++) {
+                executor.submit(new MyTask(i, pool));
+            }
         }
     }
-}
 
     static public void main(String... args) throws Exception {
         new Runner().run();
