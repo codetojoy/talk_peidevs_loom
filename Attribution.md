@@ -17,6 +17,7 @@
 * [Daniel's Diploma](https://www.flickr.com/photos/william_pacheco/531614052) by [William Pachecho](https://www.flickr.com/photos/william_pacheco/) via [CC BY-NC-ND 2.0](https://creativecommons.org/licenses/by-nc-nd/2.0/) 
 * major [PR on GitHub](https://github.com/openjdk/jdk/pull/8166/files)
 * [CBD edibles](https://www.flickr.com/photos/elsaolofsson/51385864964) by [Elsa Olofsson](https://www.flickr.com/photos/elsaolofsson/) via [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)
+* [dora dora 2](https://flickr.com/photos/ineedair/6023268510) by [Philippe Put](https://flickr.com/photos/ineedair/) via [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)
 * [working late](https://www.flickr.com/photos/grazia-horwitz/50957284276) by [Gracia Horwitz](https://www.flickr.com/photos/grazia-horwitz/) via [CC BY-NC 2.0](https://creativecommons.org/licenses/by-nc/2.0/)
 * [LGTM Stamp](https://knowyourmeme.com/photos/1287614-lgtm) via fair use
 * [Project Loom C5M](https://github.com/ebarlas/project-loom-c5m)

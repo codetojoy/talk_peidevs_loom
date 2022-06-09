@@ -16,7 +16,7 @@
 
 * see [src](./src) in this project 
 
-### Modest projects (as examples)
+### Modest projects (as more code examples)
 
 * [easter_eggs_for_java_loom](https://github.com/codetojoy/easter_eggs_for_java_loom) 
 * [WarO](https://github.com/codetojoy/WarO_Java_19) 
