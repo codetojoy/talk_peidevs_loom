@@ -19,7 +19,7 @@ Here are some bonus notes that are not included in the talk:
 * more resources:
     - [What Color Is Your Function?](https://journal.stuffwithstuff.com/2015/02/01/what-color-is-your-function/)
     - [seminal article on structured concurrency](https://250bpm.com/blog:71/)
-        - Martin Sústrik is credited with coining structured concurrency
+        - Martin Sústrik is generally credited with coining 'structured concurrency'
     - [NJS blog](https://vorpus.org/blog/notes-on-structured-concurrency-or-go-statement-considered-harmful/) on 'go statement considered harmful'
 * Matt Duffy pointed out that ALGOL 60 also introduced the concept of *continuations*
     - ALGOL 58/60 was amazing
