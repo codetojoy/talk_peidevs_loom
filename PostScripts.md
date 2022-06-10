@@ -26,3 +26,11 @@ Here are some bonus notes that are not included in the talk:
     - as Matt mentioned in person, the period of 1955-1965 was incredible for computing
         - i.e. ALGOL, Fortran, Lisp, and other languages covered a ton of ground
 
+### Structured Concurrency
+
+* Just to re-iterate the point: submitting a bunch of tasks to a service/thread-pool has been around for a long time in Java, and is not especially interesting.
+* The key thing about structured concurrency is that the threads are related:
+    - child threads are interrupted when appropriate, so that the code block succeeds/fails as a unit
+    - debugger breakpoints, thread dumps, etc will have new, complete information about the thread hierarchy 
+    - when we exit the `try` block, child threads will be "gone"
+
